@@ -1,6 +1,6 @@
 Summary:	Panel indicator for YandexDisk CLI client for Linux
 Name:		yandex-disk-indicator
-Version:	1.11.0
+Version:	1.12.2
 Release:	1
 Group:		Communications
 License:	GPLv3
@@ -37,6 +37,9 @@ chmod 644 %{buildroot}%{_datadir}/applications/*
 %find_lang %{name}
 
 %changelog
+* Mon Oct 16 2023 Evgeny Lensky <surfernsk@gmail.com> - 1.12.2-1
+- Release 1.12.2
+
 * Fri Jun 21 2019 Evgeny Lensky <surfernsk@gmail.com> - 1.11.0-1
 - Release 1.11.0
 
